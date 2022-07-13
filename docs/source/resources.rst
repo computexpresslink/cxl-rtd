@@ -32,6 +32,10 @@ miscelaneous/blogs
 
 `Compute Express Link Overview (Ben Widawsky; June 2022) <https://bwidawsk.net/blog/2022/6/compute-express-link-intro/>`_
 
+`Transparent memory offloading: more memory at a fraction of the cost and power (Meta; June 2022) <https://engineering.fb.com/2022/06/20/data-infrastructure/transparent-memory-offloading-more-memory-at-a-fraction-of-the-cost-and-power/>`_
+
 `Howto test CXL enablement on Arm64 using QEMU (Jonathan Cameron; May 2021) <https://people.kernel.org/jic23/howto-test-cxl-enablement-on-arm64-using-qemu/>`_
 
 `Setting up QEMU emulation of CXL (Matthew Ho; July 2022) <https://sunfishho.github.io/jekyll/update/2022/07/07/setting-up-qemu-cxl.html>`_
+
+`Meta Tackling Transparent Page Placement For Tiered-Memory Linux Systems (Phoronix; Nov. 2021) <https://www.phoronix.com/scan.php?page=news_item&px=Meta-Hot-Pages-High-Tiers>`_
