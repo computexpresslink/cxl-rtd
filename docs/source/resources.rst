@@ -1,12 +1,11 @@
 External Resources
 ==================
-
-.. autosummary::
-
 An unsorted list of relevant resources.
 
 basics
 ------
+`Compute Express Link Memory Devices (kernel.org) <https://www.kernel.org/doc/html/latest/driver-api/cxl/memory-devices.html>`_
+
 `cxl(1) administrative command line tool <https://github.com/pmem/ndctl/tree/main/cxl>`_
 
 `qemu CXL support description and scope <https://github.com/qemu/qemu/blob/master/docs/system/devices/cxl.rst>`_
