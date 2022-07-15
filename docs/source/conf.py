@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'CXL'
-copyright = '2022'
+copyright = '2022 Linux CXL Developers'
 author = 'CXL Developers'
 
 #release = '0.1'
@@ -28,8 +28,7 @@ intersphinx_disabled_domains = ['std']
 templates_path = ['_templates']
 
 # -- Options for HTML output
-
-html_theme = 'classic' #'sphinx_rtd_theme'
+html_theme = 'pyramid'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
