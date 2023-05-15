@@ -16,18 +16,30 @@ basics
 
 OSS conference videos
 ---------------------
+`Compute eXpress Link (CXL) - Using QEMU based emulation to enable ecosystem growth (Linaro Connect 2023) <https://resources.linaro.org/en/resource/hM986DSHfoTrZ98UjpvLg1>`_
+
+`CXL Microconf at Linux Plumbers Conference 2022 <https://www.youtube.com/watch?v=Uff2yvtzONc/>`_
+
 `Compute Express Link in QEMU (Ben Widawsky - Fosdem 2021) <https://archive.fosdem.org/2021/schedule/event/qemu/>`_
 
 `Compute Express Link + Linux + QEMU = Yes (Ben Widawsky - LPC 2021) <https://www.youtube.com/watch?v=g89SLjt5Bd4>`_
 
 LWN articles
 ------------
+`Memory-management changes for CXL (May 2023) <https://lwn.net/Articles/931416/>`_
+
 `CXL 1: Management and tiering (May 2022) <https://lwn.net/Articles/894598/>`_
 
 `CXL 2: Pooling, sharing, and I/O-memory resources (May 2022) <https://lwn.net/Articles/894626/>`_
 
+Academic
+--------
+`Demystifying CXL Memory with Genuine CXL-Ready Systems and Devices (March 2023) <https://arxiv.org/abs/2303.15375/>`_
+
+
 miscelaneous/blogs
 ------------------
+`Compute Express Link (CXL): All you need to know (Rambus; December 2022) <https://www.rambus.com/blogs/compute-express-link/>`_
 
 `Compute Express Link Overview (Ben Widawsky; June 2022) <https://bwidawsk.net/blog/2022/6/compute-express-link-intro/>`_
 
