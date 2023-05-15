@@ -32,10 +32,6 @@ LWN articles
 
 `CXL 2: Pooling, sharing, and I/O-memory resources (May 2022) <https://lwn.net/Articles/894626/>`_
 
-Academic
---------
-`Demystifying CXL Memory with Genuine CXL-Ready Systems and Devices (March 2023) <https://arxiv.org/abs/2303.15375/>`_
-
 
 miscelaneous/blogs
 ------------------
