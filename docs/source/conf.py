@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'CXL'
-copyright = '2022 Linux CXL Developers'
+copyright = '2023 Linux CXL Developers'
 author = 'CXL Developers'
 
 #release = '0.1'
@@ -17,6 +17,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx.ext.autosectionlabel',
 ]
 
 intersphinx_mapping = {
@@ -32,3 +33,6 @@ html_theme = 'pyramid'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# Enable numref
+numfig = True
