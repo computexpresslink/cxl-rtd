@@ -1,9 +1,84 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T19:27:32.750Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="21.7.1" etag="ZXFYC3xS3bJH40udGvnj" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-12T20:00:54.095Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="wk0LREgbWQdEa2W3F8Ua" version="21.7.1" type="github">
   <diagram name="Page-1" id="55P_7ha76YZlzk3N81bV">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1RW7GO_HvFz3gQQOvITE-8" value="Restricted CXL Device (RCD, aka CXL 1.1)" style="swimlane;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="400" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="1RW7GO_HvFz3gQQOvITE-9" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" parent="1RW7GO_HvFz3gQQOvITE-8" source="1RW7GO_HvFz3gQQOvITE-10" target="1RW7GO_HvFz3gQQOvITE-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1RW7GO_HvFz3gQQOvITE-10" value="&lt;pre&gt;ACPI0017&lt;br&gt;root0&lt;/pre&gt;" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1RW7GO_HvFz3gQQOvITE-8">
+          <mxGeometry x="140" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1RW7GO_HvFz3gQQOvITE-11" value="&lt;pre&gt;dport0&lt;br&gt;ACPI0016 (HB)&lt;/pre&gt;" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1RW7GO_HvFz3gQQOvITE-8">
+          <mxGeometry x="140" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1RW7GO_HvFz3gQQOvITE-14" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" target="1RW7GO_HvFz3gQQOvITE-15" source="1RW7GO_HvFz3gQQOvITE-11" parent="1RW7GO_HvFz3gQQOvITE-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1RW7GO_HvFz3gQQOvITE-15" value="&lt;pre&gt;&lt;pre style=&quot;border-color: var(--border-color);&quot;&gt;endpoint0&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;port1&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1RW7GO_HvFz3gQQOvITE-8">
+          <mxGeometry x="140" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1RW7GO_HvFz3gQQOvITE-57" value="CXL 2.0+ (aka Virtual Hierarchy)" style="swimlane;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
+          <mxGeometry x="520" y="80" width="400" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="1RW7GO_HvFz3gQQOvITE-58" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" parent="1RW7GO_HvFz3gQQOvITE-57" source="1RW7GO_HvFz3gQQOvITE-59" target="1RW7GO_HvFz3gQQOvITE-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1RW7GO_HvFz3gQQOvITE-59" value="&lt;pre&gt;ACPI0017&lt;br&gt;root0&lt;/pre&gt;" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1RW7GO_HvFz3gQQOvITE-57">
+          <mxGeometry x="140" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1RW7GO_HvFz3gQQOvITE-60" value="&lt;pre&gt;dport0&lt;br&gt;ACPI0016 (HB)&lt;/pre&gt;&lt;pre&gt;port0&lt;/pre&gt;" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1RW7GO_HvFz3gQQOvITE-57">
+          <mxGeometry x="140" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1RW7GO_HvFz3gQQOvITE-61" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" parent="1RW7GO_HvFz3gQQOvITE-57" source="1RW7GO_HvFz3gQQOvITE-60" target="1RW7GO_HvFz3gQQOvITE-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1RW7GO_HvFz3gQQOvITE-62" value="&lt;pre&gt;&lt;pre style=&quot;border-color: var(--border-color);&quot;&gt;dport1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;rp1&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1RW7GO_HvFz3gQQOvITE-57">
+          <mxGeometry x="140" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1RW7GO_HvFz3gQQOvITE-63" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1RW7GO_HvFz3gQQOvITE-57" source="1RW7GO_HvFz3gQQOvITE-62" target="1RW7GO_HvFz3gQQOvITE-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1RW7GO_HvFz3gQQOvITE-64" value="&lt;pre&gt;&lt;pre style=&quot;border-color: var(--border-color);&quot;&gt;dport2&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;rp2&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1RW7GO_HvFz3gQQOvITE-57">
+          <mxGeometry x="270" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1RW7GO_HvFz3gQQOvITE-65" value="&lt;pre&gt;&lt;pre style=&quot;border-color: var(--border-color);&quot;&gt;dport0&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;rp0&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1RW7GO_HvFz3gQQOvITE-57">
+          <mxGeometry x="10" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1RW7GO_HvFz3gQQOvITE-73" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" target="1RW7GO_HvFz3gQQOvITE-74" source="1RW7GO_HvFz3gQQOvITE-62" parent="1RW7GO_HvFz3gQQOvITE-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1RW7GO_HvFz3gQQOvITE-74" value="&lt;pre&gt;&lt;pre style=&quot;border-color: var(--border-color);&quot;&gt;dport1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;rp1&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1RW7GO_HvFz3gQQOvITE-57">
+          <mxGeometry x="140" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1RW7GO_HvFz3gQQOvITE-68" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1RW7GO_HvFz3gQQOvITE-57" source="1RW7GO_HvFz3gQQOvITE-65" target="1RW7GO_HvFz3gQQOvITE-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="260" as="sourcePoint" />
+            <mxPoint x="110" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1RW7GO_HvFz3gQQOvITE-79" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1RW7GO_HvFz3gQQOvITE-57" source="1RW7GO_HvFz3gQQOvITE-64" target="1RW7GO_HvFz3gQQOvITE-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="270" as="sourcePoint" />
+            <mxPoint x="150" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
